@@ -57,8 +57,8 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navbar-end">
-          <a className="mr-5">Manage Rentals</a>
-          <a className="">Sign In</a>
+          <a className="mr-5  text-sm ">Manage Rentals</a>
+          <a className="text-sm ">Sign In</a>
         </div>
       </div>
     </>
