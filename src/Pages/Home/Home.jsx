@@ -1,4 +1,5 @@
 import Banner from "./Banner/Banner";
+import OtherServices from "./OtherServices/OtherServices";
 import PropertyOne from "./PropertyOne/PropertyOne";
 import PropertyThree from "./PropertyThree/PropertyThree";
 import PropertyTwo from "./PropertyTwo/PropertyTwo";
@@ -11,6 +12,7 @@ const Home = () => {
         <PropertyOne />
         <PropertyTwo />
         <PropertyThree />
+        <OtherServices />
       </div>
     </div>
   );
