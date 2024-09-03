@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
       <li>
         <NavLink
-          to="/buy"
+          to="/details"
           className={({ isActive, isPending }) =>
             isActive
               ? "bg-none border text-[#055BAA] font-semibold  mr-3"
@@ -14,7 +14,7 @@ const Navbar = () => {
               : "mr-3"
           }
         >
-          Buy
+          details
         </NavLink>
       </li>
       <li>
@@ -94,7 +94,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1 hidden lg:flex">
             <li>
               <NavLink
-                to="/buy"
+                to="/details"
                 className={({ isActive, isPending }) =>
                   isActive
                     ? "bg-none border text-[#055BAA] font-semibold  mr-3"
@@ -103,7 +103,7 @@ const Navbar = () => {
                     : "mr-3"
                 }
               >
-                Buy
+                details
               </NavLink>
             </li>
             <li>
