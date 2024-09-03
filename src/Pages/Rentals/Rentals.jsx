@@ -26,7 +26,7 @@ const Rentals = () => {
         {/* cards */}
         <div className="flex flex-col gap-5 border-b-2 border-[#959595] pb-4">
           {/* card */}
-          <div className="flex p-5 rounded-lg  bg-[#F9FAFB] gap-5 flex-col md:flex-row">
+          <div className="flex p-5 hover:bg-[#FDF0E7]  rounded-lg  bg-[#F9FAFB] gap-5 flex-col md:flex-row">
             <div className="w-full md:w-3/12">
               <img src={img1} className="rounded h-auto md:h-full" />
             </div>
@@ -88,7 +88,7 @@ const Rentals = () => {
               </div>
             </div>
           </div>
-          <div className="flex p-5 rounded-lg  bg-[#F9FAFB] gap-5 flex-col md:flex-row">
+          <div className="flex p-5 hover:bg-[#FDF0E7] rounded-lg  bg-[#F9FAFB] gap-5 flex-col md:flex-row">
             <div className="w-full md:w-3/12">
               <img src={img1} className="rounded h-auto md:h-full" />
             </div>
@@ -150,7 +150,7 @@ const Rentals = () => {
               </div>
             </div>
           </div>
-          <div className="flex p-5 rounded-lg  bg-[#F9FAFB] gap-5 flex-col md:flex-row">
+          <div className="flex p-5 hover:bg-[#FDF0E7] rounded-lg  bg-[#F9FAFB] gap-5 flex-col md:flex-row">
             <div className="w-full md:w-3/12">
               <img src={img1} className="rounded h-auto md:h-full" />
             </div>
@@ -212,7 +212,7 @@ const Rentals = () => {
               </div>
             </div>
           </div>
-          <div className="flex p-5 rounded-lg  bg-[#F9FAFB] gap-5 flex-col md:flex-row">
+          <div className="flex p-5 hover:bg-[#FDF0E7] rounded-lg  bg-[#F9FAFB] gap-5 flex-col md:flex-row">
             <div className="w-full md:w-3/12">
               <img src={img1} className="rounded h-auto md:h-full" />
             </div>
@@ -274,7 +274,7 @@ const Rentals = () => {
               </div>
             </div>
           </div>
-          <div className="flex p-5 rounded-lg  bg-[#F9FAFB]  gap-5 flex-col md:flex-row">
+          <div className="flex p-5 hover:bg-[#FDF0E7] rounded-lg  bg-[#F9FAFB]  gap-5 flex-col md:flex-row">
             <div className="w-full md:w-3/12">
               <img src={img1} className="rounded h-auto md:h-full" />
             </div>

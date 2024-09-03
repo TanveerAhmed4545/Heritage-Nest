@@ -19,7 +19,7 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to="/sell"
+          to="/about"
           className={({ isActive, isPending }) =>
             isActive
               ? "bg-none border text-[#055BAA] font-semibold  mr-3"
@@ -28,7 +28,7 @@ const Navbar = () => {
               : "mr-3"
           }
         >
-          Sell
+          About
         </NavLink>
       </li>
       <li>
@@ -108,7 +108,7 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="/sell"
+                to="/about"
                 className={({ isActive, isPending }) =>
                   isActive
                     ? "bg-none border text-[#055BAA] font-semibold  mr-3"
@@ -117,7 +117,7 @@ const Navbar = () => {
                     : "mr-3"
                 }
               >
-                Sell
+                About
               </NavLink>
             </li>
             <li>
