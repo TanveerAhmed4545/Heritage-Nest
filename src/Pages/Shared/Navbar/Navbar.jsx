@@ -80,7 +80,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="navbar px-5 md:px-10 lg:px-20  bg-[#ecf5ff]">
+      <div className="navbar shadow-md px-5 md:px-10 lg:px-20  bg-[#ecf5ff]">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

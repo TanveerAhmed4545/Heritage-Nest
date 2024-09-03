@@ -45,8 +45,13 @@ const Details = () => {
                 <div>
                   <img src={view3} className="w-full h-auto md:h-40" />
                 </div>
-                <div>
+                <div className="relative">
                   <img src={view2} className="w-full h-auto md:h-40" />
+                  <div className="absolute inset-0 bg-[#000000A3] flex justify-center items-center">
+                    <p className="text-[#FFFFFF] text-lg font-semibold">
+                      View more
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

@@ -10,7 +10,7 @@ const Banner = () => {
         backgroundImage: `url(${img})`,
       }}
     >
-      <div className="hero-overlay bg-opacity-60"></div>
+      <div className="hero-overlay bg-gradient-to-t from-black/50 via-black/50 to-black/15"></div>
       <div className="hero-content text-neutral-content text-center">
         <div className="max-w-lg">
           <h1 className="mb-5 text-5xl font-bold">
