@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
       <li>
         <NavLink
-          to="/details"
+          to="/"
           className={({ isActive, isPending }) =>
             isActive
               ? "bg-none border text-[#055BAA] font-semibold  mr-3"
@@ -14,7 +14,7 @@ const Navbar = () => {
               : "mr-3"
           }
         >
-          details
+          Home
         </NavLink>
       </li>
       <li>
@@ -60,6 +60,21 @@ const Navbar = () => {
           Manage Rentals
         </NavLink>
       </li>
+
+      <li>
+        <NavLink
+          to="/details"
+          className={({ isActive, isPending }) =>
+            isActive
+              ? "bg-none border text-[#055BAA] font-semibold  mr-3"
+              : isPending
+              ? "pending"
+              : "mr-3"
+          }
+        >
+          Details Page
+        </NavLink>
+      </li>
     </>
   );
 
@@ -94,7 +109,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1 hidden lg:flex">
             <li>
               <NavLink
-                to="/details"
+                to="/"
                 className={({ isActive, isPending }) =>
                   isActive
                     ? "bg-none border text-[#055BAA] font-semibold  mr-3"
@@ -103,7 +118,7 @@ const Navbar = () => {
                     : "mr-3"
                 }
               >
-                details
+                Home
               </NavLink>
             </li>
             <li>
@@ -134,6 +149,20 @@ const Navbar = () => {
                 Services
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                to="/details"
+                className={({ isActive, isPending }) =>
+                  isActive
+                    ? "bg-none border text-[#055BAA] font-semibold  mr-3"
+                    : isPending
+                    ? "pending"
+                    : "mr-3"
+                }
+              >
+                Details Page
+              </NavLink>
+            </li>
           </ul>
         </div>
         <div className="navbar-center ">
@@ -158,9 +187,6 @@ const Navbar = () => {
                 Manage Rentals
               </NavLink>
             </li>
-            {/* <li>
-              <a>Manage Rentals</a>
-            </li> */}
           </ul>
           <ul className="menu menu-horizontal px-1 flex">
             <li>
