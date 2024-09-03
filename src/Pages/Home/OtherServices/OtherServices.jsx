@@ -2,7 +2,7 @@ import { RiHome6Line } from "react-icons/ri";
 
 const OtherServices = () => {
   return (
-    <div className="my-5 md:my-24 px-5 lg:px-20">
+    <div className="my-5 md:my-20 px-5 lg:px-20">
       <h2 className="text-center mb-5 lg:mb-12 text-4xl font-bold">
         Other Services
       </h2>

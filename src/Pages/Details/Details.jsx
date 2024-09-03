@@ -5,6 +5,9 @@ import map from "../../assets/images/map.png";
 import view1 from "../../assets/images/view1.png";
 import view2 from "../../assets/images/view2.png";
 import view3 from "../../assets/images/view3.png";
+import Cards from "../../components/Cards/Cards";
+import OtherServices from "../Home/OtherServices/OtherServices";
+import Amenities from "./Amenities/Amenities";
 
 const Details = () => {
   return (
@@ -120,7 +123,7 @@ const Details = () => {
           {/* side 2 */}
           <div className="w-full md:w-2/5 flex flex-col gap-5">
             <div>
-              <div className="bg-[#ECF5FF] p-6 rounded-lg   shadow-md">
+              <div className="bg-[#ECF5FF] p-6    ">
                 {/* Property Value */}
                 <h3 className="text-sm font-semibold text-[#6B7280]">
                   Property Value
@@ -187,6 +190,11 @@ const Details = () => {
             </div>
           </div>
         </div>
+        <Amenities />
+      </div>
+      <OtherServices />
+      <div className="px-5 md:px-10 lg:px-20">
+        <Cards />
       </div>
     </div>
   );

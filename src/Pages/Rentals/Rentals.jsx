@@ -360,8 +360,13 @@ const Rentals = () => {
             min={0}
             max="100"
             value="0"
-            className="range"
+            className="w-full accent-[#0051A1] h-2 appearance-none cursor-pointer rounded"
             step="25"
+            style={{
+              background: `linear-gradient(to right, #8AB3DB ${
+                ((280 - 280) / (305 - 280)) * 100
+              }%, #8AB3DB ${((280 - 280) / (305 - 280)) * 100}%)`,
+            }}
           />
           <div className="flex w-full justify-between px-2 text-xs">
             <span>$20K</span>
