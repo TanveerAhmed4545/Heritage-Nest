@@ -2,7 +2,9 @@ import { AiFillDollarCircle } from "react-icons/ai";
 import { BiHomeCircle } from "react-icons/bi";
 import { IoLocationOutline, IoSearch } from "react-icons/io5";
 import bg from "../../assets/images/bg.jpg";
+import Cards from "../../components/Cards/Cards";
 import FlatList from "../../components/FlatList/FlatList";
+import Testimonials from "../../components/Testimonials/Testimonials";
 
 const ServicePage = () => {
   return (
@@ -98,6 +100,15 @@ const ServicePage = () => {
         </div>
       </div>
       <FlatList />
+      <div className="px-5 md:px-10 lg:px-20">
+        <Cards />
+      </div>
+      <div className="px-5 md:px-10 lg:px-20 pb-5">
+        <Cards />
+      </div>
+      <div className="px-5 md:px-10 lg:px-20 pb-5">
+        <Testimonials />
+      </div>
     </div>
   );
 };
