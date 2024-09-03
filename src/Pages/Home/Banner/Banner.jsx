@@ -20,7 +20,7 @@ const Banner = () => {
             Seamlessly connecting you to the heartbeat of India's prime
             properties.
           </p>
-          <button className="btn bg-[#0059B1] rounded border-none text-lg text-[#FFFFFF]">
+          <button className="btn bg-[#0059B1] rounded border-none hover:text-black text-lg text-[#FFFFFF]">
             <IoSearch className="size-6" />
             Find Property
           </button>

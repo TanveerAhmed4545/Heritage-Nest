@@ -1,9 +1,71 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../../../public/logos.png";
 const Navbar = () => {
+  const links = (
+    <>
+      <li>
+        <NavLink
+          to="/buy"
+          className={({ isActive, isPending }) =>
+            isActive
+              ? "bg-none border text-[#055BAA] font-semibold  mr-3"
+              : isPending
+              ? "pending"
+              : "mr-3"
+          }
+        >
+          Buy
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/sell"
+          className={({ isActive, isPending }) =>
+            isActive
+              ? "bg-none border text-[#055BAA] font-semibold  mr-3"
+              : isPending
+              ? "pending"
+              : "mr-3"
+          }
+        >
+          Sell
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/services"
+          className={({ isActive, isPending }) =>
+            isActive
+              ? "bg-none border text-[#055BAA] font-semibold  mr-3"
+              : isPending
+              ? "pending"
+              : "mr-3"
+          }
+        >
+          Services
+        </NavLink>
+      </li>
+
+      <li>
+        <NavLink
+          to="/rentals"
+          className={({ isActive, isPending }) =>
+            isActive
+              ? "bg-none border text-[#055BAA] font-semibold  mr-3"
+              : isPending
+              ? "pending"
+              : "mr-3"
+          }
+        >
+          Manage Rentals
+        </NavLink>
+      </li>
+    </>
+  );
+
   return (
     <>
-      <div className="navbar px-5 md:px-10 lg:px-20 min-h-24 bg-[#ecf5ff]">
+      <div className="navbar px-5 md:px-10 lg:px-20  bg-[#ecf5ff]">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -26,39 +88,86 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow "
             >
-              <li>
-                <a>Buy</a>
-              </li>
-
-              <li>
-                <a>Sell</a>
-              </li>
-              <li>
-                <a>Services</a>
-              </li>
+              {links}
             </ul>
           </div>
           <ul className="menu menu-horizontal px-1 hidden lg:flex">
             <li>
-              <a>Buy</a>
+              <NavLink
+                to="/buy"
+                className={({ isActive, isPending }) =>
+                  isActive
+                    ? "bg-none border text-[#055BAA] font-semibold  mr-3"
+                    : isPending
+                    ? "pending"
+                    : "mr-3"
+                }
+              >
+                Buy
+              </NavLink>
             </li>
             <li>
-              <a>Sell</a>
+              <NavLink
+                to="/sell"
+                className={({ isActive, isPending }) =>
+                  isActive
+                    ? "bg-none border text-[#055BAA] font-semibold  mr-3"
+                    : isPending
+                    ? "pending"
+                    : "mr-3"
+                }
+              >
+                Sell
+              </NavLink>
             </li>
             <li>
-              <a>Services</a>
+              <NavLink
+                to="/services"
+                className={({ isActive, isPending }) =>
+                  isActive
+                    ? "bg-none border text-[#055BAA] font-semibold  mr-3"
+                    : isPending
+                    ? "pending"
+                    : "mr-3"
+                }
+              >
+                Services
+              </NavLink>
             </li>
           </ul>
         </div>
         <div className="navbar-center ">
           <Link to="/">
             {" "}
-            <img className="w-auto h-10" src={logo} />
+            <img className="w-auto h-10 lg:h-16" src={logo} />
           </Link>
         </div>
         <div className="navbar-end">
-          <a className="mr-5  text-sm ">Manage Rentals</a>
-          <a className="text-sm ">Sign In</a>
+          <ul className="menu menu-horizontal px-1 hidden lg:flex">
+            <li>
+              <NavLink
+                to="/rentals"
+                className={({ isActive, isPending }) =>
+                  isActive
+                    ? "bg-none border text-[#055BAA] font-semibold  mr-3"
+                    : isPending
+                    ? "pending"
+                    : "mr-3"
+                }
+              >
+                Manage Rentals
+              </NavLink>
+            </li>
+            {/* <li>
+              <a>Manage Rentals</a>
+            </li> */}
+          </ul>
+          <ul className="menu menu-horizontal px-1 flex">
+            <li>
+              <a>Sign In</a>
+            </li>
+          </ul>
+          {/* <a className="text-sm ">Sign In</a> */}
         </div>
       </div>
     </>
