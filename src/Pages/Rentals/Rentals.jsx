@@ -1,7 +1,7 @@
 import { BiArea } from "react-icons/bi";
 import { IoLocationOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
-import img1 from "../../assets/images/img1.jpg";
+import img1 from "../../assets/images/bg33.jpg";
 import Testimonials from "../../components/Testimonials/Testimonials";
 
 const Rentals = () => {

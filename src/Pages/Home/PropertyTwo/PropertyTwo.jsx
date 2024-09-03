@@ -29,7 +29,7 @@ const PropertyTwo = () => {
         <div className="lg:w-[450px] lg:h-[400px] rounded-lg relative mt-5 lg:mt-20">
           <img src={img1} className="w-full h-full rounded-lg" />
         </div>
-        <div className="w-1/2 lg:w-[450px] lg:h-[220px]  absolute right-0 top-0  rounded-lg  ">
+        <div className="w-1/2 lg:w-[450px] lg:h-[220px]  absolute -right-5  lg:right-0 top-0  rounded-lg  ">
           <img src={img2} className="w-full h-full rounded-lg" />
           <div className="absolute hidden z-10 bottom-28 -left-6 size-14 rounded-full bg-[#0059B1] lg:flex justify-center items-center ">
             <FaPlay className="text-white text-lg" />

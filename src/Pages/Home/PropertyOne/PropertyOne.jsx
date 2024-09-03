@@ -1,7 +1,7 @@
 import { FaPlay } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";
-import img1 from "../../../assets/images/img1.jpg";
-import img2 from "../../../assets/images/img2.jpg";
+import img1 from "../../../assets/images/bg22.jpg";
+import img2 from "../../../assets/images/bg23.jpg";
 
 const PropertyOne = () => {
   return (
