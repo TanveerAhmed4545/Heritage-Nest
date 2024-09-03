@@ -2,6 +2,7 @@ import buy1 from "../../assets/images/buy1.jpg";
 import buy2 from "../../assets/images/buy2.jpg";
 import home from "../../assets/images/home22.png";
 import indore from "../../assets/images/indore.jpg";
+import BehindFace from "../../components/BehindFace/BehindFace";
 import FlatList from "../../components/FlatList/FlatList";
 import Testimonials from "../../components/Testimonials/Testimonials";
 
@@ -67,6 +68,9 @@ const About = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div className="px-5 md:px-10 lg:px-20 mb-5 md:mb-10">
+        <BehindFace />
       </div>
       {/* features */}
       <div className="px-5 md:px-10 lg:px-20 pb-5 flex flex-col gap-5 md:flex-row">
