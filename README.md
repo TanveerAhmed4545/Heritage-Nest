@@ -1,8 +1,50 @@
-# React + Vite
+# Heritage Nest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Server: https://heritage-nest-c7bd7.web.app/
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About
+
+Heritage Nest is a premium real estate website built with React, React Router, Tailwind CSS, and DaisyUI. This combination provides a modern and responsive user interface, seamless navigation, and a visually appealing design to enhance the user experience.
+
+## Technologies:
+
+React js, Tailwind CSS, DaisyUi
+
+##  Features
+- 📝 This is a Real Estate-related website.
+- 📝 This website is built with the React library and React Router.
+- 📝 This website is built with the Tailwind CSS library.
+- 📝 This website mainly has 5 pages: Home, About, Services, Details Page and Manage Rentals.
+- 📝 DaisyUI is also used.
+
+
+## Installation:
+
+#### Step 1: Clone the Repository
+First, clone the repository to your local machine using the following command:
+```bash
+https://github.com/TanveerAhmed4545/Heritage-Nest.git
+```
+#### Step 2: Navigate to the Project Directory
+Change into the project directory:
+```bash
+cd repository-name
+```
+#### Step 3: Prepare the Project
+Before installing dependencies, make sure to clean up any existing ones:
+
+- Delete the node_modules folder, if it exists.
+- Delete the package-lock.json file, if it exists.
+
+#### Step 4: Install Dependencies  
+Install the required dependencies by running:
+```bash
+npm install
+```
+#### Step 5: Start the Application
+Run the following command to start the application:
+```bash
+npm start
+```
+Now, open your browser and go to http://localhost:3000/ to view your React app.
