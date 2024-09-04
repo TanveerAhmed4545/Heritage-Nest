@@ -24,7 +24,7 @@ React js, Tailwind CSS, DaisyUi
 #### Step 1: Clone the Repository
 First, clone the repository to your local machine using the following command:
 ```bash
-git clone https://github.com/TanveerAhmed4545/react-luxuria-estates.git
+https://github.com/TanveerAhmed4545/Heritage-Nest.git
 ```
 #### Step 2: Navigate to the Project Directory
 Change into the project directory:
