@@ -2,6 +2,7 @@ import { BiArea } from "react-icons/bi";
 import { IoLocationOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import img1 from "../../assets/images/bg33.jpg";
+import HomeLoan from "../../components/HomeLoan/HomeLoan";
 import Testimonials from "../../components/Testimonials/Testimonials";
 
 const Rentals = () => {
@@ -367,7 +368,7 @@ const Rentals = () => {
         </div>
       </div>
       {/* range */}
-      <div className="flex flex-col gap-5 md:flex-row w-full md:w-11/12 bg-[#ECF5FF] p-6 rounded-lg">
+      {/* <div className="flex flex-col gap-5 md:flex-row w-full md:w-11/12 bg-[#ECF5FF] p-6 rounded-lg">
         <div className="w-full md:w-2/5">
           <h3 className="text-[#010101] font-semibold text-2xl">
             Need a Home Loan?
@@ -398,7 +399,8 @@ const Rentals = () => {
             <span>$60K</span>
           </div>
         </div>
-      </div>
+      </div> */}
+      <HomeLoan />
       <div>
         <Testimonials />
       </div>
