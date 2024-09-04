@@ -1,3 +1,4 @@
+import { AiOutlineBorder } from "react-icons/ai";
 import { BiArea } from "react-icons/bi";
 import { IoLocationOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
@@ -59,9 +60,9 @@ const Rentals = () => {
                   <h2 className="text-[#010101]">Property details</h2>
                   <div className="w-4/5 h-[2px] bg-[#E3E3E3]"></div>
                 </div>
-                <div className="flex gap-4 flex-wrap">
+                <div className="flex justify-between gap-4 flex-wrap">
                   <div className="flex gap-3 items-center">
-                    <div className="p-3 size-12 bg-[#EE6611] rounded">
+                    <div className="flex justify-center items-center size-10 bg-[#EE6611] rounded">
                       <BiArea className="text-2xl text-[#ECF5FF]  rounded" />
                     </div>
 
@@ -71,18 +72,20 @@ const Rentals = () => {
                     </div>
                   </div>
                   <div className="flex gap-3 items-center">
-                    <div className="p-3 size-12 bg-[#EE6611] rounded">
+                    <div className="flex justify-center items-center size-10 bg-[#EE6611] rounded">
                       <BiArea className="text-2xl text-[#ECF5FF]  rounded" />
                     </div>
 
                     <div>
-                      <h2 className="text-[#303030] font-medium">Total Area</h2>
-                      <p className="text-[#535353] font-normal">891 sqft</p>
+                      <h2 className="text-[#303030] font-medium">Status</h2>
+                      <p className="text-[#535353] font-normal">
+                        Ready to move
+                      </p>
                     </div>
                   </div>
                   <div className="flex gap-3 items-center">
-                    <div className="p-3 size-12 bg-[#EE6611] rounded">
-                      <BiArea className="text-2xl text-[#ECF5FF]  rounded" />
+                    <div className=" flex justify-center items-center size-10 bg-[#EE6611] rounded">
+                      <AiOutlineBorder className="text-2xl text-[#ECF5FF]  rounded" />
                     </div>
 
                     <div>
@@ -126,9 +129,9 @@ const Rentals = () => {
                   <h2 className="text-[#010101]">Property details</h2>
                   <div className="w-4/5 h-[2px] bg-[#E3E3E3]"></div>
                 </div>
-                <div className="flex gap-4 flex-wrap">
+                <div className="flex justify-between gap-4 flex-wrap">
                   <div className="flex gap-3 items-center">
-                    <div className="p-3 size-12 bg-[#EE6611] rounded">
+                    <div className="flex justify-center items-center size-10 bg-[#EE6611] rounded">
                       <BiArea className="text-2xl text-[#ECF5FF]  rounded" />
                     </div>
 
@@ -138,18 +141,20 @@ const Rentals = () => {
                     </div>
                   </div>
                   <div className="flex gap-3 items-center">
-                    <div className="p-3 size-12 bg-[#EE6611] rounded">
+                    <div className="flex justify-center items-center size-10 bg-[#EE6611] rounded">
                       <BiArea className="text-2xl text-[#ECF5FF]  rounded" />
                     </div>
 
                     <div>
-                      <h2 className="text-[#303030] font-medium">Total Area</h2>
-                      <p className="text-[#535353] font-normal">891 sqft</p>
+                      <h2 className="text-[#303030] font-medium">Status</h2>
+                      <p className="text-[#535353] font-normal">
+                        Ready to move
+                      </p>
                     </div>
                   </div>
                   <div className="flex gap-3 items-center">
-                    <div className="p-3 size-12 bg-[#EE6611] rounded">
-                      <BiArea className="text-2xl text-[#ECF5FF]  rounded" />
+                    <div className=" flex justify-center items-center size-10 bg-[#EE6611] rounded">
+                      <AiOutlineBorder className="text-2xl text-[#ECF5FF]  rounded" />
                     </div>
 
                     <div>
@@ -192,9 +197,9 @@ const Rentals = () => {
                   <h2 className="text-[#010101]">Property details</h2>
                   <div className="w-4/5 h-[2px] bg-[#E3E3E3]"></div>
                 </div>
-                <div className="flex gap-4 flex-wrap">
+                <div className="flex justify-between gap-4 flex-wrap">
                   <div className="flex gap-3 items-center">
-                    <div className="p-3 size-12 bg-[#EE6611] rounded">
+                    <div className="flex justify-center items-center size-10 bg-[#EE6611] rounded">
                       <BiArea className="text-2xl text-[#ECF5FF]  rounded" />
                     </div>
 
@@ -204,18 +209,20 @@ const Rentals = () => {
                     </div>
                   </div>
                   <div className="flex gap-3 items-center">
-                    <div className="p-3 size-12 bg-[#EE6611] rounded">
+                    <div className="flex justify-center items-center size-10 bg-[#EE6611] rounded">
                       <BiArea className="text-2xl text-[#ECF5FF]  rounded" />
                     </div>
 
                     <div>
-                      <h2 className="text-[#303030] font-medium">Total Area</h2>
-                      <p className="text-[#535353] font-normal">891 sqft</p>
+                      <h2 className="text-[#303030] font-medium">Status</h2>
+                      <p className="text-[#535353] font-normal">
+                        Ready to move
+                      </p>
                     </div>
                   </div>
                   <div className="flex gap-3 items-center">
-                    <div className="p-3 size-12 bg-[#EE6611] rounded">
-                      <BiArea className="text-2xl text-[#ECF5FF]  rounded" />
+                    <div className=" flex justify-center items-center size-10 bg-[#EE6611] rounded">
+                      <AiOutlineBorder className="text-2xl text-[#ECF5FF]  rounded" />
                     </div>
 
                     <div>
@@ -258,9 +265,9 @@ const Rentals = () => {
                   <h2 className="text-[#010101]">Property details</h2>
                   <div className="w-4/5 h-[2px] bg-[#E3E3E3]"></div>
                 </div>
-                <div className="flex gap-4 flex-wrap">
+                <div className="flex justify-between gap-4 flex-wrap">
                   <div className="flex gap-3 items-center">
-                    <div className="p-3 size-12 bg-[#EE6611] rounded">
+                    <div className="flex justify-center items-center size-10 bg-[#EE6611] rounded">
                       <BiArea className="text-2xl text-[#ECF5FF]  rounded" />
                     </div>
 
@@ -270,18 +277,20 @@ const Rentals = () => {
                     </div>
                   </div>
                   <div className="flex gap-3 items-center">
-                    <div className="p-3 size-12 bg-[#EE6611] rounded">
+                    <div className="flex justify-center items-center size-10 bg-[#EE6611] rounded">
                       <BiArea className="text-2xl text-[#ECF5FF]  rounded" />
                     </div>
 
                     <div>
-                      <h2 className="text-[#303030] font-medium">Total Area</h2>
-                      <p className="text-[#535353] font-normal">891 sqft</p>
+                      <h2 className="text-[#303030] font-medium">Status</h2>
+                      <p className="text-[#535353] font-normal">
+                        Ready to move
+                      </p>
                     </div>
                   </div>
                   <div className="flex gap-3 items-center">
-                    <div className="p-3 size-12 bg-[#EE6611] rounded">
-                      <BiArea className="text-2xl text-[#ECF5FF]  rounded" />
+                    <div className=" flex justify-center items-center size-10 bg-[#EE6611] rounded">
+                      <AiOutlineBorder className="text-2xl text-[#ECF5FF]  rounded" />
                     </div>
 
                     <div>
@@ -324,9 +333,9 @@ const Rentals = () => {
                   <h2 className="text-[#010101]">Property details</h2>
                   <div className="w-4/5 h-[2px] bg-[#E3E3E3]"></div>
                 </div>
-                <div className="flex gap-4 flex-wrap">
+                <div className="flex justify-between gap-4 flex-wrap">
                   <div className="flex gap-3 items-center">
-                    <div className="p-3 size-12 bg-[#EE6611] rounded">
+                    <div className="flex justify-center items-center size-10 bg-[#EE6611] rounded">
                       <BiArea className="text-2xl text-[#ECF5FF]  rounded" />
                     </div>
 
@@ -336,18 +345,20 @@ const Rentals = () => {
                     </div>
                   </div>
                   <div className="flex gap-3 items-center">
-                    <div className="p-3 size-12 bg-[#EE6611] rounded">
+                    <div className="flex justify-center items-center size-10 bg-[#EE6611] rounded">
                       <BiArea className="text-2xl text-[#ECF5FF]  rounded" />
                     </div>
 
                     <div>
-                      <h2 className="text-[#303030] font-medium">Total Area</h2>
-                      <p className="text-[#535353] font-normal">891 sqft</p>
+                      <h2 className="text-[#303030] font-medium">Status</h2>
+                      <p className="text-[#535353] font-normal">
+                        Ready to move
+                      </p>
                     </div>
                   </div>
                   <div className="flex gap-3 items-center">
-                    <div className="p-3 size-12 bg-[#EE6611] rounded">
-                      <BiArea className="text-2xl text-[#ECF5FF]  rounded" />
+                    <div className=" flex justify-center items-center size-10 bg-[#EE6611] rounded">
+                      <AiOutlineBorder className="text-2xl text-[#ECF5FF]  rounded" />
                     </div>
 
                     <div>
